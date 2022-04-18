@@ -1,0 +1,31 @@
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+main div {
+	text-align: justify;
+}
+
+img {
+	max-width: 250px;
+	border-radius: 50%;
+}
