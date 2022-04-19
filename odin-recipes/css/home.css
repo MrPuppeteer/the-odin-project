@@ -1,0 +1,54 @@
+.container {
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+.content ul {
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+:is(.ramen, .potato, .latte) .img {
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ramen .img {
+	background-image: url(../images/perfect-instant-ramen.jpg);
+}
+
+.potato .img {
+	background-image: url(../images/homemade-potato-chips.jpg);
+}
+
+.latte .img {
+	background-image: url(../images/latte.jpg);
+}
+
+.img {
+	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+@media (max-width: 720px) {
+	body {
+		background-color: #ffadad;
+	}
+
+	.container {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.content ul {
+		flex-direction: column;
+	}
+
+	.content li {
+		padding-bottom: 10px;
+	}
+}
